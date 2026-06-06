@@ -1,5 +1,6 @@
 .agents/
 .codex/
+.worktrees/
 .DS_Store
 
 DESIGN-HANDOFF.md
