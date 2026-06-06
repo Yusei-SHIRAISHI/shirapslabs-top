@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - Shiraps Labs</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: oklch(97.4% 0.004 240);
+      --fg: oklch(25.8% 0.026 258);
+      --muted: oklch(52.8% 0.027 247);
+      --accent: oklch(44% 0.105 165);
+      --surface: oklch(100% 0 0);
+      --border: oklch(90.2% 0.014 242);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(560px, 100%);
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 7vw, 3.5rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>ページが見つかりませんでした。</p>
+    <a href="/">トップページへ戻る</a>
+  </main>
+</body>
+</html>
